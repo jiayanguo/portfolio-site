@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Box, Container, CssBaseline, makeStyles } from '@material-ui/core';
+import { Route } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Nav from './components/Nav';
 
-function App() {
+const useStyles = makeStyles({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '100vh',
+    height: "100%"
+  },
+  footer: {
+    padding: "2%",
+    marginTop: 'auto',
+    marginLeft: 'auto',
+  }
+})
+
+const App = (props: any) => {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className={classes.root}>
+      <CssBaseline />      
+      <Container className={classes.root}>
+        <Box my={5}>
+          <Nav />
+        </Box>
+        <Route exact path="/" component={Home} />
+        {/* <Route path="/projects" component={Projects} />
+        <Route path="/resume" component={ResumePage} /> */}
+        {/* <footer className={classes.footer}>
+          <Footer/>
+        </footer> */}
+      </Container>
+  </div>
   );
 }
 
