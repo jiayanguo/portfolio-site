@@ -29,7 +29,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Deploy to github pages
+npm install gh-pages --save-dev
+
+Add below scripts and homepage to package.json
+```
+"homepage": "http://jiayanguo.github.io/portfolio-site"
+"scripts": {
+//...
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
+```
+
+npm run deploy
 
 ### Reference:
 https://dev.to/sylviapap/how-to-make-your-own-no-template-personal-website-with-react-material-ui-and-netlify-pij
