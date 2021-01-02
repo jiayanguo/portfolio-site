@@ -62,3 +62,13 @@ export const contactItems = [
 	// 	text: "LeetCode",
 	// },
 ];
+
+export const images = [
+	{
+		url: "images/1.JPG"
+	},
+	 
+	{
+		url: "images/2.JPG",
+	}
+]

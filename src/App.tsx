@@ -3,6 +3,7 @@ import './App.css';
 import { Box, Container, CssBaseline, makeStyles } from '@material-ui/core';
 import { Route } from 'react-router-dom';
 import Home from './components/pages/Home';
+import Projects from './components/pages/Projects';
 import Nav from './components/Nav';
 
 const useStyles = makeStyles({
@@ -29,8 +30,8 @@ const App = (props: any) => {
           <Nav />
         </Box>
         <Route exact path="/" component={Home} />
-        {/* <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={ResumePage} /> */}
+        <Route path="/projects" component={Projects} />
+        {/* <Route path="/resume" component={ResumePage} /> */} 
         {/* <footer className={classes.footer}>
           <Footer/>
         </footer> */}

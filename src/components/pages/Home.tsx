@@ -1,7 +1,7 @@
 import {data, contactItems, skills} from '../../constants/Data'
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Card, CardContent, CardMedia, Button, Typography, Grid, CardActions, Icon, Link } from '@material-ui/core';
+import {Card, CardContent, CardMedia, Button, Typography, Grid, CardActions, Icon } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
