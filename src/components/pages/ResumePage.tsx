@@ -37,14 +37,14 @@ export default function ResumePage() {
     <div className={classes.root}>
     <Container className={classes.container}>
       <iframe 
-        src="sample.pdf" 
+        src="Resume.pdf" 
         title="resume"
         className={classes.iframe}
         >
       </iframe>
     </Container>
       <Button 
-        href="sample.pdf" 
+        href="Resume.pdf" 
         variant="contained" 
         color="inherit"
         className={classes.button}
