@@ -5,6 +5,8 @@ import { Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Nav from './components/Nav';
+import ResumePage from './components/pages/ResumePage';
+import Footer from './components/pages/Footer';
 
 const useStyles = makeStyles({
   root: {
@@ -31,10 +33,10 @@ const App = (props: any) => {
         </Box>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
-        {/* <Route path="/resume" component={ResumePage} /> */} 
-        {/* <footer className={classes.footer}>
+        <Route path="/resume" component={ResumePage} />
+        <footer className={classes.footer}>
           <Footer/>
-        </footer> */}
+        </footer>
       </Container>
   </div>
   );
