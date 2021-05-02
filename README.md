@@ -29,10 +29,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Deploy to github pages
+### Deploy to oci
 npm install gh-pages --save-dev
 
-Add below scripts and homepage to package.json
+<!-- Add below scripts and homepage to package.json
 ```
 "homepage": "http://jiayanguo.github.io/portfolio-site"
 "scripts": {
@@ -40,7 +40,7 @@ Add below scripts and homepage to package.json
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 }
-```
+``` -->
 
 npm run deploy
 

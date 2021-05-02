@@ -33,6 +33,18 @@ export const skills = [
 	{
 		name: "Cloud Solution Architect",
 	},
+	{
+		name: "Kubernetes",
+	},
+	{
+		name: "Docker",
+	},
+	{
+		name: "Spring",
+	},
+	{
+		name: "Distribution System",
+	},
 ];
 
 export const contactItems = [
