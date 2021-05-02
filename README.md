@@ -44,5 +44,11 @@ Add below scripts and homepage to package.json
 
 npm run deploy
 
+
+## Personal site deployed on OCI
+https://objectstorage.us-phoenix-1.oraclecloud.com/n/ax5ixupubw30/b/jguo.site/o/index.html#/
+
+(oci is not natively support static website. Need to use `deploy_to_oci.sh` to fix index.html file first before deploying)
+
 ### Reference:
 https://dev.to/sylviapap/how-to-make-your-own-no-template-personal-website-with-react-material-ui-and-netlify-pij
