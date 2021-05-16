@@ -101,11 +101,11 @@ const Home = (props:any) => {
         <Card className={classes.root}>
             <CardContent>
               <Typography variant="body2" gutterBottom>
-              <p>Strong Cloud knowledge. AWS certified professional.</p>
-              <p>Oracle cloud software developer.</p>
+              <p>I am a Senior Software Engineer, cloud computing expert.</p>
               <p>Strong Java knowledge. Familiar with Spring Framework, Microservices, etc. </p>
               <p>Strong Containerization and Serverless knowledge. Familiar with Kubernetes and Docker, and AWS Lambda.</p>
-              <p>Strong DevOps knowledge. AWS Certified DevOps Professional. Familiar with CI/CD tools.</p>
+              <p>Strong DevOps knowledge. Familiar with CI/CD tools.</p>
+              <p>Familiar with most popular Databases, like MySQL, Oracle, MongoDB, Cansandra, Redis, ect.</p>
               <p>Actively learning new technologies.</p>
               <p>AWS Certified Solutions Architect - Professional | AWS Certified DevOps Engineer - Professional | AWS Certified Solutions Architect – Associate | AWS Certified SysOps Administrator - Associate | AWS Certified Developer - Associate </p>
               <p>Oracle Cloud Infrastructure 2019 Architect Associate</p>

@@ -38,13 +38,13 @@ export default function ResumePage() {
     <Container className={classes.container}>
       <iframe 
         src="Resume.pdf" 
-        title="resume"
+        title="简历"
         className={classes.iframe}
         >
       </iframe>
     </Container>
       <Button 
-        href="Resume.pdf" 
+        href="Resume_CN.pdf" 
         variant="contained" 
         color="inherit"
         className={classes.button}
