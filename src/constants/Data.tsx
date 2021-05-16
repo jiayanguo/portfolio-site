@@ -45,6 +45,12 @@ export const skills = [
 	{
 		name: "Distribution System",
 	},
+	{
+		name: "SQL/NOSQL",
+	},
+	{
+		name: "Microservice",
+	},
 ];
 
 export const contactItems = [

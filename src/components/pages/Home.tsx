@@ -100,15 +100,25 @@ const Home = (props:any) => {
       <Grid item xs={12} >
         <Card className={classes.root}>
             <CardContent>
+              <Typography variant="h5" component="h2">
+                About Me
+              </Typography>
               <Typography variant="body2" gutterBottom>
-              <p>I am a Senior Software Engineer, cloud computing expert.</p>
-              <p>Strong Java knowledge. Familiar with Spring Framework, Microservices, etc. </p>
-              <p>Strong Containerization and Serverless knowledge. Familiar with Kubernetes and Docker, and AWS Lambda.</p>
-              <p>Strong DevOps knowledge. Familiar with CI/CD tools.</p>
-              <p>Familiar with most popular Databases, like MySQL, Oracle, MongoDB, Cansandra, Redis, ect.</p>
-              <p>Actively learning new technologies.</p>
-              <p>AWS Certified Solutions Architect - Professional | AWS Certified DevOps Engineer - Professional | AWS Certified Solutions Architect – Associate | AWS Certified SysOps Administrator - Associate | AWS Certified Developer - Associate </p>
-              <p>Oracle Cloud Infrastructure 2019 Architect Associate</p>
+                <p>I am a Senior Software Engineer, cloud computing expert.</p>
+                <p>Strong Java knowledge. Familiar with Spring Framework, Microservices, etc. </p>
+                <p>Strong Containerization and Serverless knowledge. Familiar with Kubernetes and Docker, and AWS Lambda.</p>
+                <p>Strong DevOps knowledge. Familiar with CI/CD tools.</p>
+                <p>Familiar with most popular Databases, like MySQL, Oracle, MongoDB, Cansandra, Redis, ect.</p>
+                
+                <p>Actively learning new technologies.</p>
+                
+                <p>AWS Certified Solutions Architect - Professional</p>
+                <p>AWS Certified DevOps Engineer - Professional</p>
+                <p>AWS Certified Solutions Architect – Associate</p>
+                <p>AWS Certified SysOps Administrator - Associate</p>
+                <p>AWS Certified Developer - Associate</p>
+                
+                <p>Oracle Cloud Infrastructure 2019 Architect Associate</p>
               </Typography>
             </CardContent>
         </Card>
