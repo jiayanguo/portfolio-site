@@ -1,7 +1,7 @@
 export const data = {
 	firstName: "Jiayan",
 	lastName: "Guo",
-	headline: "Software Engineer at Oracle Cloud Infrastructure Network Team",
+	headline: "Software Engineer at Oracle Cloud Infrastructure Network Control Plane Team, Expert in DNS Area",
 	profilePic: "profilepic.JPG",
 	github: "http://github.com/jiayanguo",
 	linkedin: "https://www.linkedin.com/in/jiayan-guo/",
@@ -46,10 +46,28 @@ export const skills = [
 		name: "Distribution System",
 	},
 	{
-		name: "SQL/NOSQL",
+		name: "Microservice",
 	},
 	{
-		name: "Microservice",
+		name: "Serverless",
+	},
+	{
+		name: "Cassandra",
+	},
+	{
+		name: "Redis",
+	},
+	{
+		name: "Mongo",
+	},
+	{
+		name: "MySQl",
+	},
+	{
+		name: "AWS",
+	},
+	{
+		name: "Oracle Cloud",
 	},
 ];
 

@@ -24,13 +24,13 @@ export default function Nav() {
           </Link>
         </Grid>
         <Grid item xs={2}>
-          <Link component={RouterLink} to="/projects"
+          <Link component={RouterLink} to="/resume"
           variant="body2" color="inherit">
-          Projects
+          Resume
           </Link>
         </Grid>
           <Grid item xs={2}>
-          <Link component={RouterLink} to="/resume"
+          <Link component={RouterLink} to="/resume.cn"
           variant="body2" color="inherit">
           简历
           </Link>

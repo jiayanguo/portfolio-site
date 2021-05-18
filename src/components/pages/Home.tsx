@@ -101,23 +101,28 @@ const Home = (props:any) => {
         <Card className={classes.root}>
             <CardContent>
               <Typography variant="h5" component="h2">
-                About Me
+                About
               </Typography>
               <Typography variant="body2" gutterBottom>
                 <p>I am a Senior Software Engineer, cloud computing expert.</p>
                 <p>Strong Java knowledge. Familiar with Spring Framework, Microservices, etc. </p>
                 <p>Strong Containerization and Serverless knowledge. Familiar with Kubernetes and Docker, and AWS Lambda.</p>
                 <p>Strong DevOps knowledge. Familiar with CI/CD tools.</p>
-                <p>Familiar with most popular Databases, like MySQL, Oracle, MongoDB, Cansandra, Redis, ect.</p>
+                <p>Familiar with most popular Databases, like MySQL, Oracle, MongoDB, Cansandra, Redis, etc.</p>
                 
                 <p>Actively learning new technologies.</p>
+              </Typography>
                 
+              <Typography variant="h5" component="h2">
+                Certificates
+              </Typography>
+              <Typography variant="body2" gutterBottom>
                 <p>AWS Certified Solutions Architect - Professional</p>
                 <p>AWS Certified DevOps Engineer - Professional</p>
                 <p>AWS Certified Solutions Architect – Associate</p>
                 <p>AWS Certified SysOps Administrator - Associate</p>
                 <p>AWS Certified Developer - Associate</p>
-                
+                <p/>
                 <p>Oracle Cloud Infrastructure 2019 Architect Associate</p>
               </Typography>
             </CardContent>
@@ -130,7 +135,7 @@ const Home = (props:any) => {
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
-              Technical Skills
+              Tech
             </Typography>
             <CardActions className={classes.paper}>
               {skills.map(skill => <span className={classes.skills} key={skill.name}><code>{skill.name}</code></span>)}

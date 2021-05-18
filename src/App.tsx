@@ -3,7 +3,7 @@ import './App.css';
 import { Box, Container, CssBaseline, makeStyles } from '@material-ui/core';
 import { Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
+import ResumePageEN from './components/pages/ResumePageEN';
 import Nav from './components/Nav';
 import ResumePage from './components/pages/ResumePage';
 import Footer from './components/pages/Footer';
@@ -32,8 +32,9 @@ const App = (props: any) => {
           <Nav />
         </Box>
         <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={ResumePage} />
+        {/* <Route path="/projects" component={Projects} /> */}
+        <Route path="/resume" component={ResumePageEN} />
+        <Route path="/resume.cn" component={ResumePage} />
         <footer className={classes.footer}>
           <Footer/>
         </footer>

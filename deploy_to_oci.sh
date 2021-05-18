@@ -17,6 +17,8 @@ oci os object put -bn jguo.site --file ./manifest.json --content-type applicatio
 oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type text/html --include *.html --overwrite
 oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type image/jpeg --include *.JPG --overwrite
 oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type text/javascript --include *.js --overwrite
-oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type application/pdf --include *.pdf --overwrite
+# oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type application/pdf --include *.pdf --overwrite  // not working, why?
+oci os object put -bn jguo.site --content-type application/pdf --file Resume_CN.pdf --force
+oci os object put -bn jguo.site --content-type application/pdf --file Resume_EN.pdf --force
 oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type text/css --include *.css --overwrite
 oci os object bulk-upload -bn jguo.site --src-dir ./ --content-type text/plain --exclude *.js --exclude *.html --exclude *.JPG --exclude *.pdf --exclude *.css --exclude ./manifest.json --overwrite
