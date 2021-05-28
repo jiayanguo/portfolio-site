@@ -16,20 +16,26 @@ export default function Nav() {
 
   return (
     <div className={classes.root} >
-      <Grid container spacing={5}>
-        <Grid item xs={2}>
+      <Grid container spacing={4}>
+        <Grid item xs={"auto"}>
           <Link component={RouterLink} to="/"
           variant="body2" color="inherit">
           Home
           </Link>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={"auto"}>
+          <Link component={RouterLink} to="/projects"
+          variant="body2" color="inherit">
+          Achievement
+          </Link>
+        </Grid>
+        <Grid item xs={"auto"}>
           <Link component={RouterLink} to="/resume"
           variant="body2" color="inherit">
           Resume
           </Link>
         </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={"auto"}>
           <Link component={RouterLink} to="/resume.cn"
           variant="body2" color="inherit">
           简历

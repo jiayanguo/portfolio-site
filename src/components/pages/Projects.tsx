@@ -20,8 +20,8 @@ const Projects = (props: any) => {
                     <SimpleImageSlider
                         showNavs={true}
                         showBullets={true}
-                        width={896}
-                        height={504}
+                        width={1000}
+                        height={700}
                         images={images}
                     />
                 </div>

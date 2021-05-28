@@ -7,6 +7,7 @@ import ResumePageEN from './components/pages/ResumePageEN';
 import Nav from './components/Nav';
 import ResumePage from './components/pages/ResumePage';
 import Footer from './components/pages/Footer';
+import Projects from './components/pages/Projects';
 
 const useStyles = makeStyles({
   root: {
@@ -32,7 +33,7 @@ const App = (props: any) => {
           <Nav />
         </Box>
         <Route exact path="/" component={Home} />
-        {/* <Route path="/projects" component={Projects} /> */}
+        <Route path="/projects" component={Projects} />
         <Route path="/resume" component={ResumePageEN} />
         <Route path="/resume.cn" component={ResumePage} />
         <footer className={classes.footer}>

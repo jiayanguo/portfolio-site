@@ -101,10 +101,24 @@ export const contactItems = [
 
 export const images = [
 	{
-		url: "images/1.JPG"
+		url: "images/CSP.jpg"
 	},
-	 
 	{
-		url: "images/2.JPG",
+		url: "images/CDP.jpg",
+	},
+	{
+		url: "images/CDA.jpg",
+	},
+	{
+		url: "images/COA.jpg",
+	},
+	{
+		url: "images/CSA.jpg",
+	},
+	{
+		url: "images/ONEAPP.jpg",
+	},
+	{
+		url: "images/TopEng.jpg",
 	}
 ]
